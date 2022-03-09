@@ -1,4 +1,8 @@
 #include <stdio.h>
+
+
+//DECLARANDO VARIABLES EN C
+
 int main(void)
 {
   
