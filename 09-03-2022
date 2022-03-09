@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(void)
+{
+  
+ printf("hola mundo \n");
+ printf("este es un primer programa \n");
+ printf("realizado en C, vamos aprender C! \n");
+ 
+ char mychar1;
+ mychar1='a';
+ 
+ char mychar2;
+ mychar2='b';
+ 
+ 
+ printf("%c \n",mychar1);
+ printf("%c \n",mychar2);
+ printf("%c" "%c \n",mychar1,mychar2);
+ printf("%c" "%c",mychar1,mychar2);
+
+
+}
