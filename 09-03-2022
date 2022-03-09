@@ -1,7 +1,5 @@
-#include <stdio.h>
-
-
 //DECLARANDO VARIABLES EN C
+//OBJETOS TIPO CHAR
 
 int main(void)
 {
@@ -10,17 +8,31 @@ int main(void)
  printf("este es un primer programa \n");
  printf("realizado en C, vamos aprender C! \n");
  
+ //a continuacion se declaran las variables
+ 
  char mychar1;
  mychar1='a';
  
  char mychar2;
  mychar2='b';
  
+ char mychar3;
+ mychar3=97;
+ 
+ //puedes imprimir las variables declaradas
+ //además es posible imprimir el tamaño de una variable
+ 
+ //a continuacion se imprimen las variables de diferentes formas
+ //notar que se debe separar los resultados con el espaciador
  
  printf("%c \n",mychar1);
  printf("%c \n",mychar2);
  printf("%c" "%c \n",mychar1,mychar2);
- printf("%c" "%c",mychar1,mychar2);
+ printf("%c" "%c \n",mychar1,mychar2);
+ printf("%d \n",mychar3);
+ printf("El tamaño del objeto de tipo caracter es %zi bytes(s)",sizeof(mychar1));
+
+//es posible usar zi o zu indiferentemente
 
 
 }
