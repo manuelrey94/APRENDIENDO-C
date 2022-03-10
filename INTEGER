@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+
+//TRABAJANDO CON ENTEROS
+//AHORA TRABAJAREMOS CON NUMEROS
+
+int main(void)
+
+{
+  
+  //EN EL SIGUIENTE EJEMPLO X Y Z TIENEN EL MISMO VALOR 10
+  //PERO ESTÁ REPRESENTADO DE DIFERENTE MANERA
+  //ES DECIR EN DIFERENTES BASES NUMERICAS
+  
+  int x;
+  x = 10;       //CONSTANTE DECIMAL
+  
+  int y;
+  y = 012;    //CONSTANTE OCTAL
+  
+  int z;
+  z=0xA;        //CONSTANTE HEXADECIMAL
+  
+  printf("A continuación se va a expresar el número 10 \n");
+  printf("en diferentes bases numéricas: \n\n");
+  printf("\nDecimal: %d \nOctal: %o \nHexadecimal %X",x,x,x);
+  
+}
+
